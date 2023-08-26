@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./imgs/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150vh;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    background: #dab885;
+    width: 550px;
+    height: 690px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    padding: 20px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.title p{
+    padding-top: 5px;
+}
+
+.line{
+    width: 100%;
+    padding: 2px;
+    background: rgb(138, 20, 20);
+    margin-top: 20px;
+}
+
+.container-title{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-container .left p{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.first-container .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 348px;
+}
+
+.first-container .right p{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-container .left p{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.second-container .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 375px;
+}
+
+.second-container .right p{
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer a{
+    color: black;
+    font-size: 1rem;
+}
+
+.footer p{
+    margin-top: 10px;
+}
+
+/* Responsive design starts here */
+@media only screen and (max-width: 390px){
+    .main-container{
+        background: #dab885;
+        width: 250px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 20px;
+    }
+
+    .first-container .left p{
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    .first-container .right p{
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    .first-container .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-left: 100px;
+    }
+
+    .container-title h1{
+        font-size: 1rem;
+    }
+
+    .second-container .left p{
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    .second-container .right p{
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    .second-container .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-left: 100px;
+    }
+
+    .footer a{
+        color: black;
+        font-size: 0.8rem;
+    }
+    
+    .footer p{
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+
+    body{
+        background-image: url(./imgs/background-image.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+}
+/* Responsive design ends here */
+
